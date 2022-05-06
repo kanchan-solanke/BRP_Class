@@ -1,0 +1,11 @@
+function cal(...restProps){
+    let sum =0
+
+    for(i of restProps){
+        sum  += i
+    }
+    return sum
+
+}
+
+console.log( cal(12,34,56,32))
